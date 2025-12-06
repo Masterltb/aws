@@ -1,33 +1,33 @@
 ---
 title: "Internship Report"
-date: ""
+date: 2025-01-01
 weight: 1
-chapter: true
+chapter: false
 ---
+
 
 # Internship Report
 
 ### Student Information:
+&emsp; **Full Name:** Lâm Thanh Bình
 
-**Full Name:** Lâm Thanh Bình
+&emsp; **Phone Number:** 0352668240
 
-**Phone Number:** 0352668240
+&emsp; **Email:** binhltse184538@fpt.edu.vn
 
-**Email:** binhltse184538@fpt.edu.vn
+&emsp; **University:** FPT University Ho Chi Minh
 
-**University:** FPT University Ho Chi Minh City
+&emsp; **Major:** Information Technology
 
-**Major:** Information Technology
+&emsp; **Class:** SE184538
 
-**Class:** SE185047
+&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-**Internship Company:** Amazon Web Services Vietnam Co., Ltd.
+&emsp; **Internship Position:** FCJ Cloud Intern
 
-**Internship Position:** FCJ Cloud Intern
+&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
 
-**Internship Duration:** From 12/08/2025 to 12/11/2025
-
-<img src="/images/avata.jpg" alt="Your profile picture" width="20%">
+![Your profile picture](/images/avata1.jpg)
 
 ### Report Content
 

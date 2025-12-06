@@ -6,13 +6,10 @@ chapter: true
 pre: " <b> 2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Đề xuất Hệ thống Hỗ trợ Cai thuốc lá
+# ** Đề xuất Hệ thống Hỗ trợ Cai thuốc lá**
 
-## 1. Tóm tắt điều hành
+## **1. Tóm tắt điều hành**
 
 Đề xuất này phác thảo thiết kế và triển khai **Nền tảng Hỗ trợ Cai thuốc lá** dựa trên đám mây, giúp người dùng bỏ thuốc thông qua theo dõi dữ liệu, phân tích hành vi, huấn luyện viên AI và sự tham gia của cộng đồng.
 
@@ -20,7 +17,7 @@ Hệ thống tích hợp cơ sở hạ tầng backend hiện đại, có khả n
 
 ---
 
-## 2. Mục tiêu hệ thống
+## 2. Mục tiêu hệ thống****
 
 - **Kế hoạch cá nhân hóa:** Giúp người dùng xây dựng và tuân theo lộ trình cai thuốc riêng biệt.
 - **Theo dõi thời gian thực:** Ghi nhận hành vi hút thuốc và tiến triển sức khỏe tức thì.
@@ -30,7 +27,7 @@ Hệ thống tích hợp cơ sở hạ tầng backend hiện đại, có khả n
 
 ---
 
-## 3. Các tính năng chính
+## 3. Các tính năng chính****
 
 ### Tính năng hướng người dùng
 
@@ -45,7 +42,7 @@ Hệ thống tích hợp cơ sở hạ tầng backend hiện đại, có khả n
 - **Tương tác chuyên gia:** Chat hoặc gọi Video trực tiếp với huấn luyện viên sức khỏe.
 - **Quản lý hồ sơ:** Chỉnh sửa mục tiêu, thông báo và quyền riêng tư.
 
-### Tính năng Quản trị & Vận hành
+### Tính năng Quản trị & Vận hành****
 
 - **Dashboard phân tích:** Theo dõi chỉ số tương tác và dữ liệu sức khỏe cộng đồng.
 - **Cổng thông tin Huấn luyện viên:** Phân công hồ sơ, phân loại rủi ro và quản lý tư vấn.
@@ -55,39 +52,39 @@ Hệ thống tích hợp cơ sở hạ tầng backend hiện đại, có khả n
 
 ---
 
-## 4. Kiến trúc hệ thống (AWS Cloud)
+## 4. Kiến trúc hệ thống (AWS Cloud)****
 
 Hệ thống tận dụng các dịch vụ AWS được quản lý để đảm bảo hiệu năng và bảo mật.
 
 ![Sơ đồ kiến trúc nền tảng](/images/2-Proposal/arch.drawio.png)
 
-### Lớp Frontend (Giao diện)
+### Lớp Frontend (Giao diện)****
 - **Amazon S3:** Lưu trữ trang web tĩnh và frontend ứng dụng (React).
 - **Amazon CloudFront:** Phân phối nội dung toàn cầu và xử lý mã hóa SSL/TLS.
 
-### Xác thực & Ủy quyền
+### Xác thực & Ủy quyền****
 - **Amazon Cognito:** Quản lý định danh, đăng nhập và bảo mật quyền truy cập.
 
-### Lớp Ứng dụng
+### Lớp Ứng dụng****
 - **AWS Lambda:** Xử lý serverless cho webhook thanh toán và tác vụ nền.
 - **Coach Chat/Video:** Cho phép giao tiếp thời gian thực.
 - **Thanh toán:** Tích hợp bảo mật qua webhook; khóa lưu trong **AWS Secrets Manager**.
 - **Network Load Balancer (NLB):** Phân phối tải đến các dịch vụ backend.
 - **EC2 Instances (Private Subnet):** Chạy các microservices cốt lõi (User, Cessation, Social, AI).
 
-### Lớp Dữ liệu
+### Lớp Dữ liệu****
 - **PostgreSQL (trên EC2):** Lưu trữ dữ liệu quan hệ (người dùng, kế hoạch, giao dịch).
 - **MongoDB (trên EC2):** Lưu trữ dữ liệu xã hội và nội dung phi cấu trúc.
 - **Amazon S3:** Lưu trữ tài sản media và sao lưu cơ sở dữ liệu.
 
-### Quy trình DevOps
+### Quy trình DevOps****
 - **CodePipeline:** Tự động hóa quy trình build và deploy.
 - **Amazon ECR:** Lưu trữ container image.
 - **VPC Endpoint:** Đảm bảo giao tiếp nội bộ an toàn.
 
 ---
 
-## 5. Bảo mật và Tuân thủ
+## 5. Bảo mật và Tuân thủ****
 
 - **Mã hóa:** TLS cho đường truyền; AES-256 cho dữ liệu lưu trữ.
 - **Kiểm soát truy cập:** Chính sách IAM chi tiết cho từng vai trò hệ thống.
@@ -97,7 +94,7 @@ Hệ thống tận dụng các dịch vụ AWS được quản lý để đảm 
 
 ---
 
-## 6. Khả năng mở rộng và Hiệu suất
+## 6. Khả năng mở rộng và Hiệu suất****
 
 - **Auto Scaling:** Tự động điều chỉnh dung lượng EC2 và Lambda theo nhu cầu.
 - **Caching:** CloudFront cache nội dung tĩnh để tăng tốc độ truy cập.
@@ -106,7 +103,7 @@ Hệ thống tận dụng các dịch vụ AWS được quản lý để đảm 
 
 ---
 
-## 7. Ước tính chi phí
+## 7. Ước tính chi phí****
 
 ### Các khoản MIỄN PHÍ ($0.00)
 - **Lambda Functions (x2):** Trong giới hạn 1 triệu requests/tháng (Free Tier).
@@ -125,7 +122,7 @@ Hệ thống tận dụng các dịch vụ AWS được quản lý để đảm 
 
 ---
 
-## 8. Kết quả mong đợi
+## 8. Kết quả mong đợi****
 
 - **Tỷ lệ thành công:** Tăng tỷ lệ cai thuốc nhờ kế hoạch có cấu trúc và giám sát.
 - **Sự gắn kết:** Tăng động lực người dùng thông qua game hóa và hỗ trợ cộng đồng.

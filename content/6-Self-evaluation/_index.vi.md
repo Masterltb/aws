@@ -1,39 +1,42 @@
 ---
 title: "Tự đánh giá"
-date: ""
+date: 2025-01-01
 weight: 6
-chapter: true
+chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong suốt thời gian thực tập tại **Amazon Web Services** từ ngày **08/09/2025** đến **28/11/2025**, tôi đã có cơ hội quý báu để áp dụng kiến thức lý thuyết vào việc xây dựng và triển khai một dự án thực tế trên nền tảng đám mây.
 
-Trong suốt thời gian thực tập tại **[Tên công ty/tổ chức]** từ **[ngày bắt đầu]** đến **[ngày kết thúc]**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia **[mô tả ngắn gọn dự án hoặc công việc chính]**, qua đó cải thiện kỹ năng **[liệt kê kỹ năng: lập trình, phân tích, viết báo cáo, giao tiếp…]**.
+Tôi đã tham gia vào dự án **"Nền tảng Hỗ trợ Cai thuốc lá"**, qua đó cải thiện và phát triển một loạt kỹ năng quan trọng, bao gồm:
+- **Lập trình Backend:** Phát triển các microservices bằng **Java (phiên bản 25)**, xử lý logic nghiệp vụ phức tạp như theo dõi tiến trình, quản lý người dùng và hệ thống đánh giá.
+- **Kiến trúc Đám mây (Cloud Architecture):** Thiết kế và triển khai hạ tầng trên **AWS**, sử dụng các dịch vụ cốt lõi như **EC2, S3, VPC, IAM, và RDS (PostgreSQL)**.
+- **DevOps:** Xây dựng quy trình CI/CD tự động bằng **AWS CodePipeline**, giúp tự động hóa việc build, test và deploy ứng dụng, giảm thiểu sai sót thủ công.
+- **Cơ sở dữ liệu:** Thiết kế và quản lý cơ sở dữ liệu quan hệ (PostgreSQL) để lưu trữ dữ liệu người dùng và phi quan hệ (MongoDB) cho các tính năng xã hội.
+- **Phân tích và Giải quyết vấn đề:** Phân tích các yêu cầu từ bản đề xuất, đối mặt với các thách thức kỹ thuật (ví dụ: tối ưu hóa truy vấn, xử lý logic nghiệp vụ phức tạp) và tìm ra giải pháp phù hợp.
 
-Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
+Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ được giao, tuân thủ các quy trình làm việc của nhóm, và tích cực trao đổi với các thành viên để đảm bảo dự án tiến triển đúng hướng.
 
 Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
 
 | STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅  | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅  | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅  | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅  | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅         |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅  | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅  | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅  | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅  | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅  | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅  | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅  | ☐   | ☐          |
+| 1   | **Kiến thức và kỹ năng chuyên môn** | Áp dụng kiến thức về Java, AWS, và DevOps vào dự án. Chất lượng mã nguồn và thiết kế hạ tầng. | ✅   | ☐   | ☐          |
+| 2   | **Khả năng học hỏi**                | Nhanh chóng tiếp thu các công nghệ mới (CDK, Cognito) và các khái niệm phức tạp.                | ✅   | ☐   | ☐          |
+| 3   | **Chủ động**                        | Tự nghiên cứu giải pháp cho các vấn đề kỹ thuật, đề xuất cải tiến cho quy trình CI/CD.           | ✅   | ☐   | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Đảm bảo các tính năng được giao hoàn thành đúng hạn và hoạt động ổn định.                        | ✅   | ☐   | ☐          |
+| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, quy trình báo cáo và các quy định chung của nhóm.                              | ☐   | ✅   | ☐          |
+| 6   | **Tính cầu tiến**                   | Luôn lắng nghe góp ý từ người hướng dẫn và đồng nghiệp để cải thiện mã nguồn và kỹ năng.         | ✅   | ☐   | ☐          |
+| 7   | **Giao tiếp**                       | Trình bày tiến độ công việc và các vấn đề kỹ thuật rõ ràng trong các buổi họp nhóm.              | ☐   | ✅   | ☐          |
+| 8   | **Hợp tác nhóm**                    | Phối hợp hiệu quả với các thành viên khác để tích hợp các microservices.                         | ✅   | ☐   | ☐          |
+| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, môi trường làm việc chuyên nghiệp.                                        | ✅   | ☐   | ☐          |
+| 10  | **Tư duy giải quyết vấn đề**        | Phân tích các lỗi (bugs), tối ưu hóa hiệu suất và tìm ra nguyên nhân gốc rễ của vấn đề.         | ☐   | ✅   | ☐          |
+| 11  | **Đóng góp vào dự án/tổ chức**      | Hoàn thành các module được giao, góp phần xây dựng thành công backend cho dự án.                 | ✅   | ☐   | ☐          |
+| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập và sự phát triển của bản thân.                      | ✅   | ☐   | ☐          |
 
 ### Cần cải thiện
 
-- Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-- Cải thiện trong cách tư duy giải quyết vấn đề
-- Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+*   **Quản lý thời gian:** Cần cải thiện kỹ năng ước tính thời gian cho các tác vụ phức tạp để đảm bảo tiến độ chính xác hơn.
+*   **Kiến thức chuyên sâu về Mạng:** Mặc dù đã làm việc với VPC, cần tìm hiểu sâu hơn về các khía cạnh nâng cao như peering, VPN, và Direct Connect để thiết kế các hệ thống phức tạp hơn.
+*   **Kỹ năng kiểm thử (Testing):** Cần viết các bài kiểm thử (unit test, integration test) một cách toàn diện và tự động hóa chúng trong quy trình CI/CD một cách hiệu quả hơn.
+*   **Giao tiếp phi kỹ thuật:** Cải thiện khả năng trình bày các giải pháp kỹ thuật cho những người không chuyên về công nghệ một cách dễ hiểu.

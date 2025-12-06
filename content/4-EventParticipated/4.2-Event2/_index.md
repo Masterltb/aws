@@ -1,71 +1,47 @@
 ---
-title: "Event 2"
-date: "2025-10-01"
-weight: 1
+title: "Discover Agentic AI – Amazon QuickSuite Workshop"
+date: 2025-11-07
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: “AI-powered planning, design, and coding for modern software development”
+### Discover Agentic AI – Amazon QuickSuite Workshop
 
-**Overview:** An **on-demand webinar** from **AWS Marketplace** focused on bringing **Generative AI** into **planning – design – coding** across the SDLC to accelerate collaboration, automate testing, generate docs/diagrams, and enforce security via a **zero-trust** approach. (Source: AWS Marketplace webinar page – *On-demand*).
+**- Date:** November 7, 2025
+**- Location:** AWS Vietnam Office, Bitexco Financial Tower, HCMC
 
----
-
-### Event Objectives
-- Explain how **GenAI** reshapes **planning, design, and coding** on AWS.  
-- Show how to integrate GenAI into **Agile/Scrum**: sprint planning, backlog refinement, **test generation**.  
-- Demonstrate creating **UI/UX mock-ups**, **architecture diagrams**, and technical docs with AI for faster alignment.  
-- Share **security/zero-trust** practices for **code analysis** and **architecture reviews**.
 
 ---
 
-### Speakers
-- **Harrison Kirby** — Ambassador, **DevOps Institute**  
-- **Ronak Shah** — **Principal Solutions Architect**, **AWS**
+#### Event Overview
+
+An exclusive workshop focused on the shift from passive Generative AI to autonomous Agentic AI. The event featured the first live demonstration of Amazon QuickSuite in Vietnam and introduced the AWS LIFT Program to lower financial barriers for adoption.
+
+**Key Objectives:**
+*   **Define Agentic AI:** Clarify the concept of autonomous AI agents that can reason and execute tasks.
+*   **Introduce Amazon QuickSuite:** Showcase the unified data visualization (QuickSight) and generative AI (Quick Suite Q) platform.
+*   **Enable Hands-on Learning:** Provide a practical environment to build AI concepts with expert guidance.
+*   **Facilitate Adoption:** Offer an $80,000 USD credit through the AWS LIFT Program to accelerate R&D.
 
 ---
 
-### Highlights
-#### 1) GenAI across the SDLC
-- **Planning & Design:** AI proposes architecture options and generates **diagrams/docs**; supports early decision-making.  
-- **Coding & Testing:** **Real-time code suggestions**, **unit/integration test** generation, fewer fix-rework cycles.  
-- **Collaboration:** Rapid **UI/UX mock-ups** to align architects, developers, and designers.
+#### Key Takeaways & Learnings
 
-#### 2) “Attendees will learn” (from the webinar page)
-- Embedding GenAI into **Agile workflows** for **sprint planning, backlog refinement, test generation**.  
-- Using **AI-generated visuals/diagrams/code** to accelerate cross-functional collaboration.  
-- Applying **security frameworks** and **zero-trust principles** with AI for **architecture reviews** and **code analysis**.
-
-#### 3) Practical tie-ins (from your supporting document)
-- **Governance Copilot:** flags **scope creep/budget drift**; auto-creates **minutes** and **risk registers**.  
-- **Smarter Estimation:** learns from historical projects; outputs **best/worst-case** ranges, not a single point.  
-- **Scope Clarifier:** NLP capture/analysis to detect **ambiguous/conflicting/missing** requirements before scope lock.  
-- **Dependency Radar:** AI-graph mapping of **team/vendor/module** dependencies to avoid bottlenecks.  
-- **Auto-documentation:** keeps **UML/sequence/workflow/API docs** in sync with code/design changes.
+*   **Focus on Autonomy:** The design goal of Agentic AI is to build systems that act on a user's behalf, not just provide information.
+*   **Ecosystem Approach is Crucial:** Effective agents require a connected network of tools, like the one provided by QuickSuite, to link data sources with action logic.
+*   **Early Adoption Creates Advantage:** Gaining proficiency with tools like QuickSuite before they become mainstream offers a significant competitive edge.
+*   **Funding Accelerates Innovation:** Financial incentives like the LIFT program enable companies to experiment and innovate more quickly.
 
 ---
 
-### Key Takeaways
-- **Vision → Value:** anchor every GenAI effort to clear **KPIs/ROI** (speed, cost, quality).  
-- **Data-first:** **retrieval/embedding/rerank** quality drives output quality.  
-- **Security-by-design:** **zero-trust**, access control, PII protection, **content moderation**, **cost/token** visibility.  
-- **Observability & Eval:** tracing, online/offline evaluation, continuous **feedback loops**.
+#### Application to Work
+
+1.  **Explore QuickSuite for Analytics:** Investigate integrating QuickSight and Quick Suite Q to create "Analyst Agents" that can automate data reporting and analysis.
+2.  **Secure R&D Funding:** Apply for the AWS LIFT Program to secure credits for upcoming AI-related research and development projects.
+3.  **Identify Automation Use Cases:** Audit internal operations to find repetitive, multi-step tasks suitable for autonomous execution by an AI agent.
+4.  **Engage with Implementation Partners:** Collaborate with partners like Cloud Kinetics for complex architectural design and implementation, reducing in-house development risks.
 
 ---
-
-### Applying to Work
-- Pilot 1–2 **GenAI use cases** over 6–8 weeks with **go/no-go gates** (quality, latency, cost/interaction, adoption).  
-- Enable a **governance copilot** (scope/budget alerts) and **auto-documentation** from the first sprint.  
-- Standardize **estimations** with historical data; publish **2–3 scenarios** instead of one number.  
-- Use a **scope clarifier** for all requirement sessions; run a **dependency radar** before major design milestones.
-
----
-
-### Event Experience
-The webinar shows how to **operationalize AI**—from documentation/architecture to code/test and security—helping teams reduce process friction and shorten lead time while maintaining safety and scalability on AWS.
-
-#### Some event photos
-*Add your screenshots/photos here*
-
-> In short, the session outlines **measurable GenAI steps** across the SDLC: AI does the heavy lifting, while **humans supervise and decide**.
+#### Event Photos
+*Add your event photos here*

@@ -1,87 +1,46 @@
 ---
-title: "Event 1"
-date: "2025-09-18"
+title: "AWS Cloud Day Vietnam - AI Edition 2025"
+date: 2025-09-18
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
+### AWS Cloud Day Vietnam - AI Edition 2025
 
-
-# Summary Report: “AWS Cloud Day Vietnam 2025 – AI Edition”
-
-**Chủ đề & thông điệp:** *New Age Vietnam: From Vision to Value* — chuyển **tầm nhìn AI** thành **giá trị đo lường được**.  
-**Trọng tâm:** **Generative AI** và các năng lực **Cloud** đi kèm (dữ liệu, bảo mật, hạ tầng, ứng dụng hiện đại).
+**- Ngày:** 18 tháng 9, 2025
+**- Địa điểm:** Số 2 đường Hải Triều, Phường Bến Nghé, Quận 1, TP. Hồ Chí Minh
 
 ---
 
-### Event Objectives
+#### Tổng quan sự kiện
 
-- Chuyển **Vision → Value**: gắn GenAI với **KPI/ROI** cụ thể (tốc độ, chi phí, chất lượng).  
-- Trình bày **kiến trúc tham chiếu GenAI** (RAG, agentic workflows, data pipelines, guardrails).  
-- Định hình **lộ trình áp dụng**: Ý tưởng → **PoC** → Pilot → **Scale** với governance & an toàn dữ liệu.  
-- Trang bị cho **builders/kỹ sư** và **lãnh đạo CNTT** bộ **thực tiễn tốt nhất trên AWS** (observability, cost control).
+Một sự kiện quan trọng dành cho cộng đồng công nghệ và doanh nghiệp Việt Nam, tập trung vào việc thúc đẩy chuyển đổi số thông qua sự hội tụ của Điện toán đám mây và Trí tuệ nhân tạo.
 
----
-
-### Speakers
-
-- Lãnh đạo & chuyên gia **AWS Vietnam** (AI/GenAI, Data, Security, AppMod).  
-- **Khách hàng/doanh nghiệp** tại Việt Nam (câu chuyện chuyển đổi số & GenAI).  
-- **Đối tác** triển khai (best practices, tối ưu chi phí, vận hành).
+**Mục tiêu chính:**
+*   **Phổ cập AI Tạo sinh:** Đưa GenAI từ khái niệm đến ứng dụng thực tế, có nhận thức theo ngữ cảnh cho doanh nghiệp.
+*   **Gắn kết Kinh doanh & CNTT:** Thu hẹp khoảng cách giữa mục tiêu kinh doanh và CNTT, đặc biệt trong lĩnh vực Dịch vụ Tài chính.
+*   **Thúc đẩy Hiện đại hóa:** Cung cấp lộ trình hiện đại hóa theo đặc thù ngành để di chuyển và phát triển ứng dụng cloud-native.
+*   **Tăng cường Bảo mật:** Thúc đẩy tư duy "bảo mật ngay từ thiết kế" trong toàn bộ vòng đời ứng dụng.
 
 ---
 
-### Key Highlights
+#### Bài học và Erkenntnisse chính
 
-#### Chủ đề trung tâm: Generative AI trên nền tảng AWS
-- **Amazon Bedrock / Amazon Q** & **Guardrails**: khởi tạo nhanh, bảo mật, tuân thủ.  
-- **Data-first**: chất lượng **retrieval/rerank/embedding** quyết định chất lượng đầu ra.  
-- **Cloud consistency**: dựa trên **AWS foundations** (identity, networking, storage, monitoring) để bảo mật & mở rộng.
-
-#### Các track nội dung tiêu biểu
-- **GenAI Foundations & Architecture:** RAG, tool-use/agent, eval & observability.  
-- **Data, Security & Governance:** PII protection, access control, content moderation, cost/token tracking.  
-- **App Modernization for AI:** tách dịch vụ, API-first, event-driven; chuẩn bị ứng dụng **AI-ready**.  
-- **Builders Hands-on:** demo/mini-lab triển khai nhanh assistant nội bộ, semantic search.
-
-#### Thông điệp then chốt
-- **Vision → Value**: tránh demo thuần túy, bám **KPI** ngay từ đầu.  
-- **Data trước, model sau**: tối ưu pipeline dữ liệu, index, cache, latency.  
-- **An toàn & tuân thủ**: guardrails, auditability, quan trắc & đánh giá liên tục.
+*   **Dữ liệu là Yếu tố Tạo nên Sự khác biệt:** Một chiến lược dữ liệu toàn diện là điều kiện tiên quyết cho sự thành công của AI Tạo sinh.
+*   **Hiện đại hóa là một Hành trình Liên tục:** Mục tiêu không chỉ là di chuyển mà là "Di chuyển để Vận hành" và đổi mới không ngừng.
+*   **Công nghệ phải do Kinh doanh dẫn dắt:** Các sáng kiến công nghệ phải được thúc đẩy bởi các kết quả kinh doanh rõ ràng.
+*   **Bảo mật là Trách nhiệm của Mọi người:** Bảo mật phải được tích hợp ngay từ dòng mã đầu tiên.
 
 ---
 
-### Key Takeaways
+#### Ứng dụng vào Công việc
 
-#### Design Mindset
-- **Business-first**: chọn bài toán nhỏ nhưng **impact cao**; owner & dữ liệu rõ ràng.  
-- **Ubiquitous language**: ngôn ngữ chung giữa business–tech, thống nhất KPI/ROI.
-
-#### Technical Architecture
-- Ưu tiên **RAG** và **agentic patterns**; tách **orchestrator** khỏi **tools**.  
-- **Observability & Eval**: tracing, offline/online eval, feedback loop.  
-- **Cost & Performance**: chọn model phù hợp, batching/caching, tối ưu prompt/context, kiểm soát latency.
-
-#### Modernization Strategy
-- Lộ trình **PoC → pilot → limited rollout → scale**; mỗi giai đoạn có **exit criteria**.  
-- Xây trên **AWS foundations** để bảo mật, ổn định và mở rộng.
+1.  **Kiểm tra Mức độ sẵn sàng của Dữ liệu:** Đánh giá chiến lược dữ liệu hiện tại của chúng tôi để đảm bảo nó có thể hỗ trợ các sáng kiến GenAI trong tương lai.
+2.  **Thử nghiệm GenAI trong DevOps:** Thử nghiệm với việc tạo mã do AI điều khiển và kiểm thử tự động để cải thiện tốc độ phát triển.
+3.  **Đối chiếu các Nỗ lực Hiện đại hóa:** Phân tích các nghiên cứu điển hình từ Honda Việt Nam (di chuyển SAP) và Masterise Group (di chuyển VMware) để hoàn thiện lộ trình hiện đại hóa của chúng tôi.
+4.  **Triển khai "Bảo mật ở Quy mô lớn":** Tích hợp các công cụ bảo mật và các phương pháp hay nhất trong toàn bộ vòng đời phát triển.
 
 ---
-
-### Applying to Work
-
-- **Shortlist 1–2 use case GenAI** gắn KPI rõ; chuẩn bị **dữ liệu & quyền truy cập**.  
-- Thiết kế **PoC 6–8 tuần** với tiêu chí **go/no-go** (quality, latency, cost/interaction, adoption).  
-- Kế hoạch vận hành: quan trắc, guardrails, **human-in-the-loop**, cải tiến liên tục.
-
----
-
-### Event Experience
-
-Sự kiện giúp đội ngũ **đi thẳng từ tầm nhìn đến giá trị**: đưa GenAI vào quy trình thực tế, bảo mật, tối ưu chi phí và bám sát mục tiêu kinh doanh. Các phiên chia sẻ & demo cho thấy cách chuẩn hóa **data pipeline**, triển khai **RAG/agent**, và đo lường hiệu quả để **mở đường cho pilot & scale**.
-
-#### Some event photos
-*Add your event photos here*
-
-> Tổng quan: “AI Edition” nhấn mạnh **Generative AI có thể tạo giá trị thực** khi kết hợp đúng **dữ liệu, kiến trúc, governance và KPI** trên nền tảng AWS.
+#### Hình ảnh sự kiện
+![Thêm hình ảnh sự kiện của bạn tại đây](path/to/your/image.jpg)

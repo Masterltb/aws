@@ -1,71 +1,47 @@
 ---
-title: "Event 2"
-date: "2025-10-01"
-weight: 1
+title: "Khám Phá Agentic AI – Workshop Amazon QuickSuite"
+date: 2025-11-07
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Báo cáo tóm tắt: “AI-powered planning, design, and coding for modern software development”
+### Khám Phá Agentic AI – Workshop Amazon QuickSuite
 
-**Tổng quan:** Webinar **on-demand** của **AWS Marketplace** tập trung cách đưa **Generative AI** vào **kế hoạch – thiết kế – lập trình** trong SDLC để tăng tốc cộng tác, tự động hoá kiểm thử, sinh tài liệu/kiến trúc và đảm bảo bảo mật theo **zero-trust**. (Nguồn: trang webinar chính thức của AWS Marketplace – *On-demand*).  
+**- Ngày:** 7 tháng 11, 2025
+**- Địa điểm:** Văn phòng AWS Việt Nam, Bitexco Financial Tower, TP.HCM
 
----
-
-### Mục tiêu sự kiện
-- Giải thích **GenAI** đang thay đổi **planning, design, coding** như thế nào trên AWS.  
-- Hướng dẫn tích hợp GenAI vào **Agile/Scrum**: sprint planning, backlog refinement, **test generation**.  
-- Minh hoạ sinh **UI/UX mock-ups**, **sơ đồ kiến trúc**, và tài liệu kỹ thuật bằng AI để tăng tốc cộng tác.  
-- Chia sẻ khung **bảo mật/zero-trust** và thực hành an toàn cho **code analysis** và **architecture reviews**.
 
 ---
 
-### Diễn giả
-- **Harrison Kirby** — Ambassador, **DevOps Institute**  
-- **Ronak Shah** — **Principal Solutions Architect**, **AWS**
+#### Tổng quan sự kiện
+
+Một workshop đặc biệt tập trung vào sự chuyển dịch từ AI Tạo sinh (Generative AI) thụ động sang AI Tác tử (Agentic AI) tự chủ. Sự kiện đã có buổi trình diễn trực tiếp đầu tiên của Amazon QuickSuite tại Việt Nam và giới thiệu Chương trình AWS LIFT để giảm bớt rào cản tài chính cho việc áp dụng.
+
+**Mục tiêu chính:**
+*   **Định nghĩa Agentic AI:** Làm rõ khái niệm về các tác tử AI tự chủ có khả năng suy luận và thực thi nhiệm vụ.
+*   **Giới thiệu Amazon QuickSuite:** Trình diễn nền tảng hợp nhất giữa trực quan hóa dữ liệu (QuickSight) và AI tạo sinh (Quick Suite Q).
+*   **Hỗ trợ học tập thực hành:** Cung cấp một môi trường thực tế để xây dựng các khái niệm AI với sự hướng dẫn của chuyên gia.
+*   **Thúc đẩy áp dụng:** Cung cấp khoản tín dụng 80.000 USD thông qua Chương trình AWS LIFT để thúc đẩy R&D.
 
 ---
 
-### Nội dung nổi bật
-#### 1) GenAI trong SDLC
-- **Planning & Design**: AI đề xuất phương án kiến trúc, sinh **diagram/doc**; hỗ trợ quyết định sớm.  
-- **Coding & Testing**: **gợi ý mã theo thời gian thực**, sinh **unit/integration tests**, giảm vòng lặp sửa lỗi.  
-- **Collaboration**: tạo **UI/UX mock-ups** nhanh để thống nhất yêu cầu giữa architect–dev–designer.  
+#### Bài học và Erkenntnisse chính
 
-#### 2) “Attendees will learn” (từ trang webinar)
-- Cách tích hợp GenAI vào **Agile workflows** cho **sprint planning, backlog refinement, test generation**.  
-- Kỹ thuật dùng **AI-generated visuals/diagrams/code** để tăng tốc cộng tác đa vai trò.  
-- Áp dụng **security frameworks** và **zero-trust principles** với AI cho **architecture reviews** & **code analysis**.  
-
-#### 3) Liên hệ thực tiễn (từ tài liệu bạn gửi)
-- **Governance Copilot**: cảnh báo **scope creep/budget drift**, tự tạo **biên bản** & **risk register**.  
-- **Smarter Estimation**: học dữ liệu dự án cũ để ước lượng theo **best/worst-case** thay vì 1 con số.  
-- **Scope Clarifier**: ghi & phân tích họp bằng NLP, phát hiện yêu cầu **mơ hồ/xung đột/thiếu** trước khi khóa scope.  
-- **Dependency Radar**: lập bản đồ **phụ thuộc** team/vendor/module bằng AI-graph để tránh tắc nghẽn.  
-- **Auto-documentation**: đồng bộ **UML/sequence/workflow/API docs** với thay đổi code/thiết kế theo thời gian thực.
+*   **Tập trung vào tính tự chủ:** Mục tiêu thiết kế của Agentic AI là xây dựng các hệ thống hành động thay mặt người dùng, không chỉ cung cấp thông tin.
+*   **Cách tiếp cận hệ sinh thái là rất quan trọng:** Các tác tử hiệu quả đòi hỏi một mạng lưới công cụ được kết nối, giống như mạng lưới được cung cấp bởi QuickSuite, để liên kết các nguồn dữ liệu với logic hành động.
+*   **Việc áp dụng sớm tạo ra lợi thế:** Việc thành thạo các công cụ như QuickSuite trước khi chúng trở nên phổ biến sẽ mang lại một lợi thế cạnh tranh đáng kể.
+*   **Nguồn vốn thúc đẩy sự đổi mới:** Các ưu đãi tài chính như chương trình LIFT cho phép các công ty thử nghiệm và đổi mới nhanh hơn.
 
 ---
 
-### Bài học chính (Key Takeaways)
-- **Vision → Value**: gắn mọi thử nghiệm GenAI với **KPI/ROI** cụ thể (tốc độ, chi phí, chất lượng).  
-- **Data-first**: chất lượng **retrieval/embedding/rerank** quyết định chất lượng đầu ra.  
-- **Security-by-design**: **zero-trust**, phân quyền truy cập, PII protection, **content moderation**, theo dõi **cost/tokens**.  
-- **Observability & Eval**: tracing, đánh giá online/offline, **feedback loop** liên tục.  
+#### Ứng dụng vào Công việc
+
+1.  **Khám phá QuickSuite cho Phân tích:** Nghiên cứu việc tích hợp QuickSight và Quick Suite Q để tạo ra các "Tác tử Phân tích" có thể tự động hóa việc báo cáo và phân tích dữ liệu.
+2.  **Đảm bảo kinh phí cho R&D:** Đăng ký Chương trình AWS LIFT để đảm bảo các khoản tín dụng cho các dự án nghiên cứu và phát triển liên quan đến AI sắp tới.
+3.  **Xác định các trường hợp sử dụng tự động hóa:** Kiểm tra các hoạt động nội bộ để tìm các tác vụ lặp đi lặp lại, nhiều bước phù hợp để một tác tử AI thực hiện tự chủ.
+4.  **Hợp tác với các đối tác triển khai:** Hợp tác với các đối tác như Cloud Kinetics để thiết kế và triển khai kiến trúc phức tạp, giảm thiểu rủi ro phát triển nội bộ.
 
 ---
-
-### Ứng dụng vào công việc
-- Thí điểm 1–2 **use case GenAI** trong 6–8 tuần với **go/no-go gates** (quality, latency, cost/interaction, adoption).  
-- Bật **governance copilot** (cảnh báo scope/budget) và **auto-documentation** ngay từ sprint đầu.  
-- Chuẩn hoá **estimation** bằng dữ liệu lịch sử; công bố **2–3 kịch bản** thay vì một con số.  
-- Dùng **scope clarifier** cho mọi phiên yêu cầu; chạy **dependency radar** trước mốc thiết kế lớn.  
-
----
-
-### Trải nghiệm sự kiện
-Webinar cho thấy cách **đưa AI vào thực thi**: từ tài liệu/kiến trúc → code/test → bảo mật, giúp đội ngũ giảm ma sát quy trình và rút ngắn lead time mà vẫn giữ tiêu chuẩn an toàn và khả năng mở rộng trên AWS.
-
-#### Một số hình ảnh sự kiện
-*Thêm ảnh/screenshot của bạn tại đây*
-
-> Tóm lại, webinar cung cấp **các bước áp dụng GenAI có thể đo lường** trong SDLC, kết hợp AI để làm – **con người giám sát và quyết định**.
+#### Hình ảnh sự kiện
+*Thêm hình ảnh sự kiện của bạn tại đây*

@@ -1,33 +1,34 @@
 ---
 title: "Báo cáo thực tập"
-date: ""
+date: 2025-01-01
 weight: 1
-chapter: true
+chapter: false
 ---
 
 # Báo cáo thực tập
 
-### Thông tin sinh viên
+### Thông tin sinh viên:
+&emsp; **Họ và tên:** Lâm Thanh Bình
 
-**Họ và tên:** Lâm Thanh Bình
+&emsp; **Số điện thoại:** 0352668240
 
-**Số điện thoại:** 0352668240
+&emsp; **Email:** binhhltse1845@fpt.edu.vn
 
-**Email:** binhltse184538@fpt.edu.vn
+&emsp; **Trường:** Đại học FPT Hồ Chí Minh
 
-**Trường:** Đại học FPT
+&emsp; **Ngành:** Công nghệ thông tin
 
-**Ngành:** Công nghệ thông tin
+&emsp; **Lớp:** SE184538
 
-**Lớp:** AWS082025
+&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
-**Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-**Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
 
-**Thời gian thực tập:** Từ ngày 09/09/2025 đến ngày 12/11/2025
+![Ảnh đại diện của bạn](/images/avata1.jpg)
 
-<img src="/images/avata.jpg" width="20%">
+
 
 ### Nội dung báo cáo
 

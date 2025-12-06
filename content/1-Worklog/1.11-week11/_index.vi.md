@@ -6,33 +6,33 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-
-
 ### Mục tiêu Tuần 11
 
-- Triển khai logic phân biệt **Lỡ (Slip)** và **Tái nghiện (Relapse)**.
-- Phát triển bộ lập lịch **Đánh giá Hàng tuần** (Weekly Assessment - chu kỳ 7 ngày).
-- Xây dựng **Admin APIs** cho các thao tác CRUD trên Quiz Templates.
+- **Chat Service:** Triển khai các API cốt lõi (lấy phòng chat, lịch sử tin nhắn).
+- **Program Service:** Tinh chỉnh logic nghiệp vụ (Slip/Relapse) và bổ sung các tính năng quản trị.
 
 ### Các công việc thực hiện trong tuần
 
 | Ngày | Công việc                                                                                                                                                                                             | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo                              |
 | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------------- |
-| 2    | - **Tính năng:** Triển khai logic **Slip**: Báo cáo lỡ -> Cho phép khôi phục ngay, không reset.<br>- **Tính năng:** Triển khai logic **Relapse**: Báo cáo tái nghiện -> Hard reset về 0 ngay lập tức. | 17/11/2025   | 17/11/2025      | —                                               |
-| 3    | - **Bổ sung Flyway:** Thêm Flyway các bảng còn thiếu , thêm thuộc tính (cột) .<br>- **Logic:** Cải thiện luồng , bổ sung các thuộc tính cần thiết cho đối tượng.                                      | 18/11/2025   | 18/11/2025      | <https://spring.io/guides/gs/scheduling-tasks/> |
-| 4    | - **Admin API:** Xây dựng REST endpoints cho Admin thực hiện Create/Read/Update/Delete **Quiz Templates**.<br>- **Validate:** Thêm logic kiểm tra để đảm bảo quiz có câu hỏi và đáp án hợp lệ.        | 19/11/2025   | 19/11/2025      | —                                               |
-| 5    | - **Tối ưu hóa:** Tối ưu logic bộ đếm reset (Tối đa 3 lần khôi phục).<br>- **Logic:** Đảm bảo lần khôi phục thứ 4 sẽ kích hoạt hard reset bất kể kết quả quiz.                                        | 20/11/2025   | 20/11/2025      | —                                               |
-| 6    | - **Tích hợp:** Kết nối kết quả Quiz Hàng tuần vào Hồ sơ Người dùng để theo dõi tiến độ dài hạn.<br>- **Refactor:** Tái cấu trúc `QuizService` để xử lý cả hai loại quiz "Khôi phục" và "Hàng tuần".  | 21/11/2025   | 21/11/2025      | —                                               |
+| 2    | - **Chat Service:** Triển khai `ChatController` và API `GET /api/v1/chat-rooms/me` để lấy danh sách phòng chat của người dùng.                                                                          | 17/11/2025   | 17/11/2025      | —                                               |
+| 3    | - **Chat Service:** Triển khai API `GET /api/v1/chat-rooms/{roomId}/messages` với logic phân trang và sắp xếp. <br>- **Chat Service:** Triển khai API nội bộ `POST /internal/api/v1/chat-rooms`.       | 18/11/2025   | 18/11/2025      | —                                               |
+| 4    | - **Program Service:** Triển khai logic phân biệt **Slip** (khôi phục ngay) và **Relapse** (hard reset). <br>- **Program Service:** Bổ sung Flyway để quản lý các thay đổi schema.                      | 19/11/2025   | 19/11/2025      | <https://flywaydb.org/>                         |
+| 5    | - **Program Service:** Xây dựng Admin API (CRUD) cho `Quiz Templates`. <br>- **Program Service:** Tối ưu hóa logic bộ đếm reset (tối đa 3 lần khôi phục).                                               | 20/11/2025   | 20/11/2025      | —                                               |
+| 6    | - **Program Service:** Phát triển bộ lập lịch `@Scheduled` cho Đánh giá Hàng tuần. <br>- **Kiểm thử:** Dùng Postman để test các API của Chat Service.                                                 | 21/11/2025   | 21/11/2025      | <https://spring.io/guides/gs/scheduling-tasks/> |
 
 ### Kết quả đạt được Tuần 11
 
-- Logic **Slip vs Relapse** đã hoàn thiện, thực thi nghiêm ngặt các quy tắc khôi phục của chương trình.
-- Hệ thống **Đánh giá Hàng tuần** được tự động hóa, đảm bảo giám sát liên tục tiến độ người dùng.
-- **Module Admin** quản lý Quiz đã hoàn tất, cho phép cập nhật nội dung động mà không cần sửa code.
-- **Giới hạn Khôi phục** (Tối đa 3 lần) được thực thi thành công, ngăn chặn lạm dụng hệ thống.
+- **Chat Service:**
+  - Các API chính để lấy danh sách phòng chat và lịch sử tin nhắn đã hoạt động.
+  - API nội bộ để tạo phòng chat đã sẵn sàng cho các service khác gọi.
+- **Program Service:**
+  - Logic **Slip vs Relapse** đã hoàn thiện, giúp hệ thống xử lý các tình huống thất bại một cách linh hoạt.
+  - **Module Admin** cho phép quản lý nội dung Quiz một cách độc lập.
+  - Hệ thống **Đánh giá Hàng tuần** được tự động hóa.
 
 **Bài học rút ra:**
 
-- **Lập lịch (Scheduling):** Sử dụng Spring Scheduler cho các tác vụ định kỳ so với external cron jobs.
-- **Đa hình trong Service:** Thiết kế `QuizService` để xử lý các ngữ cảnh quiz khác nhau (Khôi phục vs Hàng tuần) một cách hiệu quả.
-- **Hard vs Soft Deletes:** Xử lý "Relapse" (Hard Reset) khác biệt rõ ràng với "Smoke Event" (Soft Reset).
+- **Thiết kế API Phân trang:** Tầm quan trọng của việc triển khai phân trang hiệu quả cho các API trả về danh sách lớn (lịch sử tin nhắn).
+- **Lập lịch (Scheduling):** Sử dụng Spring Scheduler là một cách hiệu quả để chạy các công việc định kỳ mà không cần cấu hình phức tạp.
+- **Phân bổ công việc:** Chuyển đổi trọng tâm giữa các service trong một sprint/tuần giúp duy trì tiến độ đồng đều cho toàn bộ hệ thống.
