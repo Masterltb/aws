@@ -1,12 +1,12 @@
 ---
-title: "Module 7: Setup S3 & CloudFront"
-date: "2025-09-30"
+title: "5.7 Setup S3 + CloudFront"
+date: ""
 weight: 7
 chapter: false
 pre: " <b> 5.7. </b> "
 ---
 
-# Module 7: Create S3 Buckets & a CloudFront Distribution
+# Module 7: Create S3 Buckets & CloudFront Distribution
 
 ## Module Objectives
 

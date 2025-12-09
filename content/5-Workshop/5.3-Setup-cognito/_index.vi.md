@@ -1,10 +1,11 @@
 ---
-title: "Module 3: Setup Cognito"
-date: "2025-09-30"
+title: "5.3 Setup Cognito"
+date: ""
 weight: 3
 chapter: false
 pre: " <b> 5.3. </b> "
 ---
+
 # Module 3: Create Cognito User Pool & Authentication
 
 ## Mục tiêu Module

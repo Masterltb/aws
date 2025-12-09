@@ -1,6 +1,6 @@
 ---
-title: "Module 1: Giới Thiệu Hạ Tầng Smoking Cessation Platform"
-date: "2025-09-30"
+title: "5.1 Introduction"
+date: ""
 weight: 1
 chapter: false
 pre: " <b> 5.1. </b> "

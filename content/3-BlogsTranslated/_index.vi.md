@@ -2,11 +2,10 @@
 title: "Các bài blogs đã dịch"
 date: ""
 weight: 3
-chapter: true
+chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Danh sách blogs đã dịch theo thứ tự 3.1 → 3.6:
 
 ### [Blog 1 - Amazon hoan nghênh Sắc lệnh Hành pháp và cam kết chăm sóc ung thư nhi](3.1-Blog1/)
 Tóm tắt Sắc lệnh thúc đẩy AI cho ung thư nhi và cách AWS hỗ trợ chia sẻ dữ liệu an toàn, hợp tác lâm sàng.

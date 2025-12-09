@@ -1,6 +1,6 @@
 ---
-title: "Module 5: Setup API Gateway"
-date: "2025-09-30"
+title: "5.5 Setup API Gateway"
+date: ""
 weight: 5
 chapter: false
 pre: " <b> 5.5. </b> "

@@ -1,7 +1,8 @@
 ---
-title: "Các sự kiện đã tham gia"
+title: "Events Participated"
+date: ""
 weight: 4
-chapter: true
+chapter: false
 pre: " <b> 4. </b> "
 ---
 

@@ -2,11 +2,10 @@
 title: "Translated Blogs"
 date: ""
 weight: 3
-chapter: true
+chapter: false
 pre: " <b> 3. </b> "
 ---
 
-This section lists the translated blogs in order 3.1 → 3.6:
 
 ### [Blog 1 - Amazon welcomes the White House Executive Order on pediatric cancer](3.1-Blog1/)
 Pediatric cancer EO, AI-assisted research, and how AWS supports secure data sharing and collaboration.

@@ -1,6 +1,6 @@
 ---
-title: "Module 10: Cleanup & Cost Optimization"
-date: "2025-09-30"
+title: "5.10 Cleanup & Cost Optimization"
+date: ""
 weight: 10
 chapter: false
 pre: " <b> 5.10. </b> "

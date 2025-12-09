@@ -1,6 +1,6 @@
 ---
-title: "Module 6: Verify EC2 & DBs"
-date: "2025-09-30"
+title: "5.6 Setup RDS Database"
+date: ""
 weight: 6
 chapter: false
 pre: " <b> 5.6. </b> "

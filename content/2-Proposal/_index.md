@@ -1,29 +1,30 @@
 ---
 title: "Proposal"
-date: "2025-01-01"
+date: ""
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
 
-
 # Smoking Cessation Support System Proposal
+[📄 Download Proposal (.docx)](/Proposal.docx)
 
 ## 1. Executive Summary
 
-This proposal outlines the design and implementation of a cloud-based **Smoking Cessation Support Platform** aimed at helping users quit smoking through data tracking, behavioral insights, AI coaching, and community engagement.
+This proposal outlines the design and implementation of a cloud-based **Smoking Cessation Support Platform** aimed at helping users quit smoking through data tracking, behavioral insights, AI coaching, and community engagement.  
+The system integrates a modern, scalable backend infrastructure deployed on **AWS Cloud**, ensuring high availability, security, and seamless user experience.  
 
-The system integrates a modern, scalable backend infrastructure deployed on **AWS Cloud**, ensuring high availability, security, and a seamless user experience. The goal is to provide an intelligent, personalized journey for users to monitor, plan, and achieve their smoking cessation goals—while giving administrators and health coaches the tools to support and guide them.
+The goal is to provide an intelligent, personalized journey for users to monitor, plan, and achieve their smoking cessation goals—while giving administrators and health coaches the tools to support and guide them.
 
 ---
 
 ## 2. System Objectives
 
-- **Personalized Plans:** Help users build and follow personalized quit-smoking plans.
-- **Real-time Tracking:** Track smoking behavior and health progress in real-time.
-- **AI Coaching:** Offer AI-driven coaching, reminders, and motivational feedback.
-- **Community Engagement:** Enable social interaction and encouragement among members.
-- **Reliability:** Provide a secure, cloud-native infrastructure for scalability and reliability.
+- Help users build and follow personalized quit-smoking plans.  
+- Track smoking behavior and health progress in real-time.  
+- Offer AI-driven coaching, reminders, and motivational feedback.  
+- Enable social interaction and encouragement among members.  
+- Provide a secure, cloud-native infrastructure for scalability and reliability.  
 
 ---
 
@@ -31,100 +32,96 @@ The system integrates a modern, scalable backend infrastructure deployed on **AW
 
 ### User-Oriented Features
 
-- **Homepage & Knowledge Hub:** Public homepage that introduces the platform, shares success stories, FAQs, and a blog for experience sharing.
-- **Membership & Payments:** Users register, select tiers (free/premium), and pay via secure third-party providers; subscription status drives access.
-- **Smoking Status Tracking:** Log daily cigarette consumption, frequency, brand/cost, and emotional triggers.
-- **Quit Plan & Journey Branching:** Dynamic planning (reasons, stages, dates). If relapse occurs, the journey branches with tailored recovery steps.
-- **Progress Tracking:** Visualize smoke-free days, money saved, health improvements, and streaks.
-- **Motivational Notifications:** Daily/weekly reminders via in-app, email, or SMS.
-- **Achievements (Gamification):** Earn and share milestones (e.g., “1 Day Smoke-Free”, “₫100K Saved”).
-- **AI Coaching Agent:** Personalized guidance powered by AI with safety disclaimers and human handoff.
-- **Coach Interaction:** Chat or schedule video sessions with platform health coaches.
-- **Profile Management:** Edit goals, notifications, and privacy settings.
+- **Registration & Membership Plans:** Users can register, select subscription tiers, and make payments for premium features.  
+- **Smoking Status Tracking:** Log daily cigarette consumption, cost, and frequency.  
+- **Personalized Cessation Plans:** Create and adjust quitting plans based on user habits and goals.  
+- **Progress Tracking:** Display statistics such as smoke-free days, money saved, and health improvements.  
+- **Motivational Notifications:** Automated reminders and encouraging messages delivered periodically.  
+- **Achievements & Badges:** Unlock milestones such as “7 Days Smoke-Free” or “₫100K Saved”.  
+- **Community Interaction:** Share achievements, advice, and encouragement within a supportive network.  
+- **AI Coaching Agent:** Personalized guidance and advice powered by machine learning.  
+- **Health Device Integration:** Collect data from wearable or IoT health devices for progress tracking.  
 
 ### Admin & Operator Features
 
-- **Dashboard & Analytics:** Monitor user metrics, engagement, and health impact analytics.
-- **Coach Portal:** Assign caseloads, triage at-risk users, and conduct counseling.
-- **Pricing Management:** Define fee packages, benefits, and promotions.
-- **Content Management:** Manage blogs, motivational messages, and educational content.
-- **Feedback Management:** Track user satisfaction metrics and content quality.
+- **Dashboard & Reports:** Monitor user metrics, engagement, and health impact analytics.  
+- **Coach Portal:** Health coaches can interact with users via chat or video for counseling.  
+- **Feedback & Rating Management:** Track and respond to user satisfaction metrics.  
+- **Payment & Subscription Management:** Manage fee packages and user subscriptions.  
 
 ---
 
 ## 4. System Architecture (AWS Cloud)
 
-The system leverages AWS-managed services for scalability and security.
-
-![Platform Architecture Diagram](/images/2-Proposal/arch.drawio.png)
+The system leverages AWS-managed services for scalability and security, as visualized in the architecture diagram.
 
 ### Frontend Layer
-- **Amazon S3:** Hosts the static website and the web app frontend (React).
-- **Amazon CloudFront:** Distributes web content globally and handles SSL/TLS encryption.
+
+- **Amazon S3** hosts the static website (React or Angular frontend).  
+- **Amazon CloudFront** distributes the web content globally and handles SSL/TLS encryption.
 
 ### Authentication & Authorization
-- **Amazon Cognito:** Manages user sign-up, sign-in, and identity federation, ensuring secure access.
+
+- **Amazon Cognito** manages user sign-up, sign-in, and identity federation, ensuring secure access for both end-users and coaches.
 
 ### Application Layer
-- **AWS Lambda:** Serverless compute for payment webhooks and scheduled jobs.
-- **Coach Chat/Video:** Enables real-time communication.
-- **Payments:** Integrated via secure webhooks; API keys stored in **AWS Secrets Manager**.
-- **Network Load Balancer (NLB):** Distributes requests to backend services.
-- **EC2 Instances (Private Subnet):** Host core microservices (User, Cessation, Social, AI Orchestration).
+
+- **AWS Lambda** powers serverless services such as payment handling or lightweight API operations.  
+- **Network Load Balancer (NLB)** distributes requests across backend EC2 instances.  
+- **EC2 Instances (Private Subnet)** host core microservices:
+  - **User Service**
+  - **Cessation Service**
+  - **Social Media Service**
 
 ### Data Layer
-- **PostgreSQL (on EC2):** Stores structured user, plan, and transaction data.
-- **MongoDB (on EC2):** Stores unstructured social features and content.
-- **Amazon S3:** Stores media assets and encrypted database backups.
+
+- **PostgreSQL Databases** for user and cessation data (on EC2 or RDS).  
+- **MongoDB** for social features and unstructured data.  
+- **S3 Bucket (Backup)** stores periodic encrypted database backups.
 
 ### DevOps Pipeline
-- **CodePipeline:** Automates builds and deployments.
-- **Amazon ECR:** Stores container images.
-- **VPC Endpoint:** Ensures secure internal communication.
 
+- **GitLab CI/CD Pipeline** automates deployment to **Amazon ECR** (Elastic Container Registry) and EC2 instances.  
+- **VPC Endpoint** ensures secure communication with AWS services without exposing traffic to the public internet.  
+- **EC2 Instance Connect Endpoint** enables controlled administrative access.
+![Architect](/images/2-Proposal/P.jpg)
+**Figure 1 – AWS-based cloud architecture for the Smoking Cessation Platform.**
 ---
 
 ## 5. Security and Compliance
 
-- **Encryption:** Data encrypted in transit (TLS) and at rest (AES-256).
-- **Access Control:** Fine-grained IAM policies for system roles.
-- **Network Security:** Backend isolated in Private Subnets; internal traffic via VPC Endpoints.
-- **Payment Security:** PCI-DSS compliant flow (card data handled by provider).
-- **Privacy:** Strict consent management and data retention policies.
+- **Data Encryption:** All sensitive data encrypted in transit (TLS) and at rest (AES-256).  
+- **IAM Policies:** Fine-grained access control for different system roles.  
+- **Private Subnets:** Backend and databases are isolated from public exposure.  
+- **VPC Link & Endpoints:** Secure internal communication between services.  
+- **Backup Strategy:** Automated daily backups to S3 with versioning and lifecycle policies.  
 
 ---
 
 ## 6. Scalability and Performance
 
-- **Auto Scaling:** Automatically adjusts EC2 and Lambda capacity based on demand.
-- **Caching:** CloudFront caches static content for global speed.
-- **Microservices:** Decoupled design allows independent scaling of features.
-- **Event-Driven:** EventBridge decouples notifications and background workflows.
+- **Auto Scaling:** EC2 and Lambda functions scale based on user demand.  
+- **CDN Caching:** CloudFront caches static content for faster global delivery.  
+- **Load Balancing:** NLB ensures traffic distribution and fault tolerance.  
+- **Decoupled Microservices:** Modular design allows independent scaling of user, cessation, and social services.
 
 ---
 
-## 7. Pricing Estimate
+## 7. Future Enhancements
 
-### What Will Be FREE ($0.00)
-- **Lambda Functions (x2):** Within 1M requests/month Free Tier.
-- **S3 Buckets (x2):** Within 5GB Standard Storage Free Tier.
-- **Amazon ECR:** Within 500MB/month Free Tier.
-- **CloudFront:** Within 1TB data transfer Free Tier.
-- **EC2 Instance (x1):** 750 hours/month (t4g.micro).
-- **Cognito:** First 50,000 MAU are free.
-
-### Estimated Monthly Costs (Paid)
-- **Compute (Microservices):** 3x EC2 instances (t4g.small) ≈ **$45.00**
-- **Networking (Load Balancing):** 1x Network Load Balancer ≈ **$18.00**
-- **Security (Private Access):** 1x VPC Endpoint ≈ **$5.00**
-
-**Total Estimated Monthly Cost: ~$68.00**
+- Integration with **mobile apps** for Android and iOS.  
+- Advanced **AI predictive relapse detection** using user patterns.  
+- Real-time chat and video counseling.  
+- Integration with **third-party payment gateways**.  
+- **Gamified health challenges** and reward systems.
 
 ---
 
 ## 8. Expected Outcomes
 
-- **Success Rates:** Increased cessation success through structured plans and tracking.
-- **Engagement:** Higher user retention via gamification and community support.
-- **Scalability:** A robust platform capable of supporting large user growth.
-- **Security:** A compliant infrastructure protecting sensitive health data.
+- Increased smoking cessation success rates.  
+- Improved user motivation and engagement.  
+- Scalable platform capable of supporting large user bases.  
+- Secure, compliant, and maintainable cloud infrastructure.
+
+---

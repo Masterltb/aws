@@ -1,12 +1,12 @@
 ---
-title: "Module 9: Monitoring & Logging"
-date: "2025-09-30"
+title: "5.9 Monitoring & Logging"
+date: ""
 weight: 9
 chapter: false
 pre: " <b> 5.9. </b> "
 ---
 
-# Module 9: Set up CloudWatch Monitoring, Logging & Alerts
+# Module 9: Setup CloudWatch Monitoring, Logging & Alerts
 
 ## Module Objectives
 

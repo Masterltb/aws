@@ -1,6 +1,6 @@
 ---
-title: "Module 2: Prerequisites"
-date: "2025-09-30"
+title: "5.2 Prerequisites"
+date: ""
 weight: 2
 chapter: false
 pre: " <b> 5.2. </b> "

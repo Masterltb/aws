@@ -1,13 +1,12 @@
 ---
-title: "Module 1: Infrastructure Introduction"
-date: "2025-09-30"
+title: "5.1 Introduction"
+date: ""
 weight: 1
 chapter: false
 pre: " <b> 5.1. </b> "
 ---
 
-
-# Module 1: Smoking Cessation Platform Infrastructure Introduction
+# Module 1: Introduction to Smoking Cessation Platform Infrastructure 
 
 ## Module Objectives
 

@@ -1,12 +1,12 @@
 ---
-title: "Module 8: Setup VPC & Security"
-date: "2025-09-30"
+title: "5.8 Setup VPC & Security"
+date: ""
 weight: 8
 chapter: false
 pre: " <b> 5.8. </b> "
 ---
 
-# Module 8: Create a VPC, Subnets, Security Groups & an NLB
+# Module 8: Create VPC, Subnets, Security Groups & NLB
 
 ## Module Objectives
 

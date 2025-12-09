@@ -1,130 +1,128 @@
 ---
-title: "Bản đề xuất"
-date: "2025-01-01"
+title: "Proposal"
+date: ""
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
 
+# Đề Xuất Hệ Thống Hỗ Trợ Cai Thuốc Lá
+[📄 Download Proposal (.docx)](/Proposal.docx)
 
-# ** Đề xuất Hệ thống Hỗ trợ Cai thuốc lá**
+## 1. Tóm tắt Điều hành
 
-## **1. Tóm tắt điều hành**
+Bản đề xuất này mô tả thiết kế và triển khai một **Nền tảng Hỗ trợ Cai Thuốc Lá dựa trên đám mây**, nhằm giúp người dùng bỏ thuốc thông qua việc theo dõi dữ liệu, phân tích hành vi, huấn luyện bằng AI và tương tác cộng đồng.  
+Hệ thống tích hợp một hạ tầng backend hiện đại, có khả năng mở rộng, được triển khai trên **AWS Cloud**, đảm bảo tính sẵn sàng cao, bảo mật và trải nghiệm người dùng liền mạch.
 
-Đề xuất này phác thảo thiết kế và triển khai **Nền tảng Hỗ trợ Cai thuốc lá** dựa trên đám mây, giúp người dùng bỏ thuốc thông qua theo dõi dữ liệu, phân tích hành vi, huấn luyện viên AI và sự tham gia của cộng đồng.
-
-Hệ thống tích hợp cơ sở hạ tầng backend hiện đại, có khả năng mở rộng được triển khai trên **AWS Cloud**, đảm bảo tính khả dụng cao, bảo mật và trải nghiệm người dùng liền mạch. Mục tiêu là cung cấp một hành trình thông minh, được cá nhân hóa để người dùng theo dõi, lập kế hoạch và đạt được mục tiêu cai thuốc lá—đồng thời cung cấp cho quản trị viên và chuyên gia y tế các công cụ để hỗ trợ họ.
-
----
-
-## 2. Mục tiêu hệ thống****
-
-- **Kế hoạch cá nhân hóa:** Giúp người dùng xây dựng và tuân theo lộ trình cai thuốc riêng biệt.
-- **Theo dõi thời gian thực:** Ghi nhận hành vi hút thuốc và tiến triển sức khỏe tức thì.
-- **Huấn luyện viên AI:** Cung cấp hướng dẫn, nhắc nhở và phản hồi tạo động lực tự động.
-- **Gắn kết cộng đồng:** Cho phép tương tác xã hội và khích lệ giữa các thành viên.
-- **Độ tin cậy:** Cung cấp hạ tầng cloud-native an toàn, dễ mở rộng.
+Mục tiêu là cung cấp một hành trình thông minh và cá nhân hóa để người dùng theo dõi, lập kế hoạch và đạt được mục tiêu cai thuốc—đồng thời mang đến cho quản trị viên và huấn luyện viên các công cụ để hỗ trợ và hướng dẫn họ.
 
 ---
 
-## 3. Các tính năng chính****
+## 2. Mục tiêu Hệ thống
 
-### Tính năng hướng người dùng
-
-- **Trang chủ & Knowledge Hub:** Giới thiệu nền tảng, chia sẻ câu chuyện thành công và blog giáo dục.
-- **Thành viên & Thanh toán:** Đăng ký, chọn gói (Free/Premium) và thanh toán an toàn qua bên thứ 3.
-- **Theo dõi hút thuốc:** Ghi nhật ký tiêu thụ, tần suất, chi phí và các yếu tố kích thích (triggers).
-- **Lập kế hoạch & Phân nhánh:** Kế hoạch động (lý do, giai đoạn). Nếu tái nghiện, hệ thống tự động điều chỉnh lộ trình phục hồi.
-- **Theo dõi tiến độ:** Biểu đồ trực quan về số ngày không khói thuốc, tiền tiết kiệm và cải thiện sức khỏe.
-- **Thông báo động lực:** Nhắc nhở hàng ngày/tuần qua App, Email hoặc SMS.
-- **Thành tích (Gamification):** Nhận và chia sẻ huy hiệu (ví dụ: “1 ngày không khói thuốc”, “Tiết kiệm 100K”).
-- **Huấn luyện viên AI:** Hướng dẫn cá nhân hóa với rào chắn an toàn và khả năng chuyển giao cho người thật.
-- **Tương tác chuyên gia:** Chat hoặc gọi Video trực tiếp với huấn luyện viên sức khỏe.
-- **Quản lý hồ sơ:** Chỉnh sửa mục tiêu, thông báo và quyền riêng tư.
-
-### Tính năng Quản trị & Vận hành****
-
-- **Dashboard phân tích:** Theo dõi chỉ số tương tác và dữ liệu sức khỏe cộng đồng.
-- **Cổng thông tin Huấn luyện viên:** Phân công hồ sơ, phân loại rủi ro và quản lý tư vấn.
-- **Quản lý giá cước:** Định nghĩa các gói phí, quyền lợi và khuyến mãi.
-- **Quản lý nội dung:** Quản lý bài viết, thông điệp động lực và tài liệu giáo dục.
-- **Quản lý phản hồi:** Theo dõi mức độ hài lòng và chất lượng nội dung.
+- Giúp người dùng xây dựng và theo dõi các kế hoạch cai thuốc được cá nhân hóa.  
+- Theo dõi hành vi hút thuốc và tiến trình sức khỏe theo thời gian thực.  
+- Cung cấp huấn luyện bằng AI, nhắc nhở và thông điệp động viên.  
+- Cho phép tương tác và khích lệ giữa các thành viên trong cộng đồng.  
+- Cung cấp hạ tầng điện toán đám mây an toàn và có khả năng mở rộng.
 
 ---
 
-## 4. Kiến trúc hệ thống (AWS Cloud)****
+## 3. Các Tính năng Chính
 
-Hệ thống tận dụng các dịch vụ AWS được quản lý để đảm bảo hiệu năng và bảo mật.
+### Tính năng cho Người dùng
 
-![Sơ đồ kiến trúc nền tảng](/images/2-Proposal/arch.drawio.png)
+- **Đăng ký & Gói thành viên:** Người dùng có thể đăng ký, chọn các gói dịch vụ và thanh toán cho các tính năng cao cấp.  
+- **Theo dõi tình trạng hút thuốc:** Ghi lại số lượng thuốc lá sử dụng mỗi ngày, chi phí và tần suất.  
+- **Kế hoạch cai thuốc cá nhân:** Tạo và điều chỉnh kế hoạch cai dựa trên thói quen và mục tiêu của người dùng.  
+- **Theo dõi tiến trình:** Hiển thị các thống kê như số ngày không hút thuốc, tiền tiết kiệm và cải thiện sức khỏe.  
+- **Thông báo động viên:** Gửi tự động nhắc nhở và thông điệp khích lệ theo định kỳ.  
+- **Thành tựu & Huy hiệu:** Mở khóa các cột mốc như “7 ngày không hút thuốc” hoặc “Tiết kiệm 100K”.  
+- **Tương tác cộng đồng:** Chia sẻ thành tích, lời khuyên và động viên trong mạng lưới hỗ trợ.  
+- **Tác tử AI Coaching:** Hướng dẫn cá nhân hóa dựa trên công nghệ máy học.  
+- **Tích hợp thiết bị sức khỏe:** Thu thập dữ liệu từ các thiết bị đeo thông minh hoặc IoT để theo dõi tiến trình.
 
-### Lớp Frontend (Giao diện)****
-- **Amazon S3:** Lưu trữ trang web tĩnh và frontend ứng dụng (React).
-- **Amazon CloudFront:** Phân phối nội dung toàn cầu và xử lý mã hóa SSL/TLS.
+### Tính năng cho Quản trị viên & Nhà vận hành
 
-### Xác thực & Ủy quyền****
-- **Amazon Cognito:** Quản lý định danh, đăng nhập và bảo mật quyền truy cập.
-
-### Lớp Ứng dụng****
-- **AWS Lambda:** Xử lý serverless cho webhook thanh toán và tác vụ nền.
-- **Coach Chat/Video:** Cho phép giao tiếp thời gian thực.
-- **Thanh toán:** Tích hợp bảo mật qua webhook; khóa lưu trong **AWS Secrets Manager**.
-- **Network Load Balancer (NLB):** Phân phối tải đến các dịch vụ backend.
-- **EC2 Instances (Private Subnet):** Chạy các microservices cốt lõi (User, Cessation, Social, AI).
-
-### Lớp Dữ liệu****
-- **PostgreSQL (trên EC2):** Lưu trữ dữ liệu quan hệ (người dùng, kế hoạch, giao dịch).
-- **MongoDB (trên EC2):** Lưu trữ dữ liệu xã hội và nội dung phi cấu trúc.
-- **Amazon S3:** Lưu trữ tài sản media và sao lưu cơ sở dữ liệu.
-
-### Quy trình DevOps****
-- **CodePipeline:** Tự động hóa quy trình build và deploy.
-- **Amazon ECR:** Lưu trữ container image.
-- **VPC Endpoint:** Đảm bảo giao tiếp nội bộ an toàn.
+- **Dashboard & Báo cáo:** Giám sát chỉ số người dùng, mức độ tương tác và phân tích tác động sức khỏe.  
+- **Cổng huấn luyện viên:** Huấn luyện viên có thể tương tác với người dùng qua chat hoặc video.  
+- **Quản lý phản hồi & đánh giá:** Theo dõi và phản hồi mức độ hài lòng của người dùng.  
+- **Quản lý thanh toán & gói dịch vụ:** Quản lý các gói phí và đăng ký của người dùng.
 
 ---
 
-## 5. Bảo mật và Tuân thủ****
+## 4. Kiến trúc Hệ thống (AWS Cloud)
 
-- **Mã hóa:** TLS cho đường truyền; AES-256 cho dữ liệu lưu trữ.
-- **Kiểm soát truy cập:** Chính sách IAM chi tiết cho từng vai trò hệ thống.
-- **An ninh mạng:** Backend nằm trong Private Subnet; giao tiếp qua VPC Endpoints.
-- **Thanh toán:** Tuân thủ PCI-DSS (không lưu dữ liệu thẻ trực tiếp).
-- **Quyền riêng tư:** Quản lý chặt chẽ sự đồng ý và vòng đời dữ liệu người dùng.
+Hệ thống tận dụng các dịch vụ do AWS quản lý để đảm bảo khả năng mở rộng và bảo mật, như được minh họa trong sơ đồ kiến trúc.
+
+### Lớp Frontend
+
+- **Amazon S3** lưu trữ website tĩnh (frontend React hoặc Angular).  
+- **Amazon CloudFront** phân phối nội dung toàn cầu và xử lý mã hóa SSL/TLS.
+
+### Xác thực & Phân quyền
+
+- **Amazon Cognito** quản lý đăng ký, đăng nhập và liên kết danh tính, đảm bảo truy cập an toàn cho cả người dùng và huấn luyện viên.
+
+### Lớp Ứng dụng
+
+- **AWS Lambda** xử lý các tác vụ serverless như thanh toán hoặc các hoạt động API nhẹ.  
+- **Network Load Balancer (NLB)** phân phối các yêu cầu đến các instance EC2 backend.  
+- **EC2 (Private Subnet)** chạy các microservice cốt lõi:
+  - **User Service**  
+  - **Cessation Service**  
+  - **Social Media Service**
+
+### Lớp Dữ liệu
+
+- **PostgreSQL Databases** cho dữ liệu người dùng và cai thuốc (trên EC2 hoặc RDS).  
+- **MongoDB** cho tính năng xã hội và dữ liệu phi cấu trúc.  
+- **S3 Bucket (Backup)** lưu trữ bản sao lưu cơ sở dữ liệu được mã hóa định kỳ.
+
+### DevOps Pipeline
+
+- **GitLab CI/CD Pipeline** tự động triển khai lên **Amazon ECR** và EC2.  
+- **VPC Endpoint** đảm bảo kết nối an toàn với các dịch vụ AWS mà không cần ra Internet.  
+- **EC2 Instance Connect Endpoint** cho phép truy cập quản trị có kiểm soát.
+
+{{< figure src="/images/2-Proposal/P.jpg" title="Hình 1 – Kiến trúc điện toán đám mây AWS cho Nền tảng Hỗ trợ Cai Thuốc Lá" >}}
 
 ---
 
-## 6. Khả năng mở rộng và Hiệu suất****
+## 5. Bảo mật và Tuân thủ
 
-- **Auto Scaling:** Tự động điều chỉnh dung lượng EC2 và Lambda theo nhu cầu.
-- **Caching:** CloudFront cache nội dung tĩnh để tăng tốc độ truy cập.
-- **Microservices:** Thiết kế tách biệt cho phép mở rộng độc lập từng tính năng.
-- **Event-Driven:** EventBridge tách biệt các quy trình thông báo và xử lý nền.
-
----
-
-## 7. Ước tính chi phí****
-
-### Các khoản MIỄN PHÍ ($0.00)
-- **Lambda Functions (x2):** Trong giới hạn 1 triệu requests/tháng (Free Tier).
-- **S3 Buckets (x2):** Trong giới hạn 5GB Standard (Free Tier).
-- **Amazon ECR:** Trong giới hạn 500MB/tháng.
-- **CloudFront:** Trong giới hạn 1TB truyền dữ liệu.
-- **EC2 Instance (x1):** 750 giờ/tháng (t4g.micro).
-- **Cognito:** Miễn phí cho 50.000 người dùng đầu tiên (MAU).
-
-### Chi phí ước tính (Trả phí)
-- **Compute (Microservices):** 3x EC2 instances (t4g.small) ≈ **$45.00**
-- **Networking (Load Balancing):** 1x Network Load Balancer ≈ **$18.00**
-- **Security (Private Access):** 1x VPC Endpoint ≈ **$5.00**
-
-**Tổng chi phí ước tính hàng tháng: ~$68.00**
+- **Mã hóa dữ liệu:** Tất cả dữ liệu nhạy cảm được mã hóa khi truyền (TLS) và khi lưu trữ (AES-256).  
+- **IAM Policies:** Kiểm soát truy cập chi tiết cho từng vai trò hệ thống.  
+- **Private Subnets:** Backend và cơ sở dữ liệu biệt lập khỏi Internet công cộng.  
+- **VPC Link & Endpoints:** Đảm bảo giao tiếp nội bộ an toàn giữa các dịch vụ.  
+- **Chiến lược sao lưu:** Sao lưu tự động hàng ngày lên S3 với versioning và lifecycle policy.
 
 ---
 
-## 8. Kết quả mong đợi****
+## 6. Khả năng mở rộng và Hiệu năng
 
-- **Tỷ lệ thành công:** Tăng tỷ lệ cai thuốc nhờ kế hoạch có cấu trúc và giám sát.
-- **Sự gắn kết:** Tăng động lực người dùng thông qua game hóa và hỗ trợ cộng đồng.
-- **Khả năng mở rộng:** Nền tảng vững chắc hỗ trợ lượng lớn người dùng tăng trưởng.
-- **Bảo mật:** Cơ sở hạ tầng tuân thủ, bảo vệ dữ liệu sức khỏe nhạy cảm.
+- **Auto Scaling:** EC2 và Lambda tự động mở rộng khi nhu cầu tăng.  
+- **CDN Caching:** CloudFront lưu cache nội dung giúp tăng tốc phân phối toàn cầu.  
+- **Load Balancing:** NLB phân phối lưu lượng và đảm bảo chịu lỗi.  
+- **Microservices tách biệt:** Cho phép mở rộng độc lập từng dịch vụ.
+
+---
+
+## 7. Phát triển trong tương lai
+
+- Tích hợp với **ứng dụng di động** Android và iOS.  
+- **Dự đoán nguy cơ tái hút** sử dụng AI nâng cao dựa trên hành vi người dùng.  
+- Chat và tư vấn video thời gian thực.  
+- Tích hợp **cổng thanh toán bên thứ ba**.  
+- Các thử thách gamification và hệ thống phần thưởng.
+
+---
+
+## 8. Kết quả kỳ vọng
+
+- Tăng tỷ lệ bỏ thuốc thành công.  
+- Tăng động lực và mức độ tương tác của người dùng.  
+- Hệ thống có khả năng mở rộng để hỗ trợ lượng người dùng lớn.  
+- Nền tảng an toàn, tuân thủ và dễ bảo trì.
+
+---
